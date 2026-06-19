@@ -1,6 +1,6 @@
 package com.example.controller;
 
-import com.example.servlet.Controller;
+import randy.framework.annotation.Controller;
 
 @Controller     //annotation
 public class A {

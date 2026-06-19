@@ -1,8 +1,16 @@
 package com.example.controller;
 
-import com.example.servlet.Controller;
+import randy.framework.annotation.Controller;
+import randy.framework.annotation.UrlMapping;
 
-@Controller     //annotation
+@Controller
 public class TestController {
-    
+
+    @UrlMapping("/accueil")
+    public void afficherAccueil() {
+    }
+
+    @UrlMapping("/profil")
+    public void voirProfil() {
+    }
 }

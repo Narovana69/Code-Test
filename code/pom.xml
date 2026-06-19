@@ -11,7 +11,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.example</groupId>
+            <groupId>randy.framework</groupId>
             <artifactId>framework</artifactId>
             <version>1.0</version>
         </dependency>

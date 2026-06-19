@@ -1,6 +1,6 @@
 package com.example.entity;
 
-import com.example.servlet.Controller;
+import randy.framework.annotation.Controller;
 
 @Controller
 public class Test {
