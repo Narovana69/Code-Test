@@ -6,11 +6,13 @@ import randy.framework.annotation.UrlMapping;
 @Controller
 public class TestController {
 
-    @UrlMapping("/accueil")
-    public void afficherAccueil() {
+    @UrlMapping(value = "/test", method = "GET") 
+    public void afficherFormulaire() {
+        System.out.println(" -> [CONTROLLER] Exécution de la méthode GET pour /test");
     }
 
-    @UrlMapping("/profil")
-    public void voirProfil() {
+    @UrlMapping(value = "/test", method = "POST") 
+    public void soumettreFormulaire() {
+        System.out.println(" -> [CONTROLLER] Exécution de la méthode POST pour /test");
     }
 }
